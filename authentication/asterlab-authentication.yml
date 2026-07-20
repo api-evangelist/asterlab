@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.asterlab.ai/inference
+docs: https://www.asterlab.ai/inference
+summary:
+  types:
+  - http
+  http_schemes:
+  - bearer
+  notes: >-
+    Aster Inference is OpenAI-compatible. Authentication uses a bearer API key passed in the
+    HTTP Authorization header (Authorization: Bearer <ASTER_API_KEY>), exactly as the OpenAI
+    SDKs send it. API keys are created in the inference console; the base URL is set to
+    https://api.asterlab.ai/v1. No OAuth, OIDC, or scope surface is published.
+schemes:
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  description: >-
+    Aster API key sent as an HTTP bearer token (Authorization: Bearer <key>). Keys are created
+    and managed in the inference console at https://www.asterlab.ai/inference/console.
+  location: header
+  parameter: Authorization
+  source: https://www.asterlab.ai/inference
+key_management:
+  console: https://www.asterlab.ai/inference/console
+  provisioning: Create an API key in the console and add credits; volume pricing via info@asterlab.ai.
