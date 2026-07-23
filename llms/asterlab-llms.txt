@@ -1,0 +1,35 @@
+# Aster (Asterlab)
+
+> Aster AI Labs, PBC is a San Francisco based Y Combinator (Spring 2026) public benefit corporation building autonomous research systems that coordinate thousands of AI research agents to automate open-ended scientific discovery. It offers Aster Inference, an OpenAI-compatible inference API serving open-weight models at what it benchmarks as the fastest gpt-oss-120b output speed on GPU (644 tok/s), with zero data retention by default.
+
+## APIs
+
+- [Aster Inference API](https://www.asterlab.ai/inference): OpenAI-compatible inference API. Base URL https://api.asterlab.ai/v1. Models: gpt-oss-120b, gpt-oss-120b-fast, GLM 5.2. Authenticate with an Aster API key (Authorization: Bearer). Works with the OpenAI Python/JS SDKs, LangChain, LiteLLM, Cursor, and the Vercel AI SDK.
+
+## Docs
+
+- [Inference overview & getting started](https://www.asterlab.ai/inference): Models, pricing, SDK compatibility, and data-retention policy.
+- [Inference console](https://www.asterlab.ai/inference/console): Create and manage API keys, add credits.
+
+## Research
+
+- [Announcing preliminary results from our autonomous research system](https://www.asterlab.ai/research/announcing_preliminary_results_from_our_autonomous_research_system)
+- [Scaling autonomous research to thousands of agents](https://www.asterlab.ai/research/scaling_autonomous_research_to_thousands_of_agents)
+- [An LLM made from logic gates](https://www.asterlab.ai/research/an_llm_made_from_logic_gates)
+
+## Artifacts
+
+- [Authentication profile](authentication/asterlab-authentication.yml)
+- [API conventions](conventions/asterlab-conventions.yml)
+- [Well-known probe index](well-known/asterlab-well-known.yml)
+- [Domain security probe](security/asterlab-domain-security.yml)
+
+## Legal
+
+- [Terms of Service](https://www.asterlab.ai/terms)
+- [Privacy Notice](https://www.asterlab.ai/privacy)
+
+## Contact
+
+- info@asterlab.ai
+- [@asterailabs on X](https://x.com/asterailabs)

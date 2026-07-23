@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of the base hosts on 2026-07-18
+hosts:
+- host: https://api.asterlab.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /openapi.json
+    status: 404
+- host: https://www.asterlab.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /llms.txt
+    status: 404
+notes: >-
+  No /.well-known discovery documents are published on either the API host (api.asterlab.ai)
+  or the marketing host (www.asterlab.ai). The API host requires a bearer key (401 on
+  /v1/models). Absence recorded as valid negative data.

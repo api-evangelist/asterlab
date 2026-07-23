@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.asterlab.ai/inference
+docs: https://www.asterlab.ai/inference
+summary: >-
+  Aster Inference is an OpenAI-compatible HTTP API. Cross-cutting request/response semantics
+  follow the OpenAI Chat Completions contract, so any client that speaks the OpenAI API works
+  by setting the base URL to https://api.asterlab.ai/v1 and passing an Aster API key.
+conventions:
+  base_url: https://api.asterlab.ai/v1
+  protocol: HTTPS / JSON
+  compatibility: OpenAI API compatible (chat completions, models); works with the official OpenAI
+    Python and JS SDKs, LangChain, LiteLLM, Cursor, the Vercel AI SDK, and most agent frameworks.
+  authentication:
+    style: bearer
+    header: 'Authorization: Bearer <ASTER_API_KEY>'
+    ref: authentication/asterlab-authentication.yml
+  model_selection:
+    param: model
+    values:
+    - gpt-oss-120b
+    - gpt-oss-120b-fast
+    - GLM 5.2
+  data_retention: >-
+    Zero data retention by default — prompts and outputs are processed in memory and never stored;
+    only token counts are kept for billing.
+  idempotency:
+    supported: unknown
+    notes: No idempotency-key contract is documented on the inference page (beyond any behavior
+      inherited from OpenAI-compatible clients).
+  pagination:
+    supported: unknown
+    notes: Not documented; the published surface is the OpenAI-style chat/completions and models
+      endpoints.
+  error_envelope:
+    notes: OpenAI-compatible error envelope expected (error object with type/message), inherited
+      from the OpenAI API contract; not independently documented by Aster.
+  rate_limit_signaling:
+    notes: Not documented on the public inference page.
