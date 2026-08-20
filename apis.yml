@@ -36,6 +36,16 @@ modified: '2026-07-18'
 tags:
 - Company
 - Artificial Intelligence
+- Machine-Learning
+- LLM
+- Inference
+- OpenAI-Compatible
+- Autonomous Research
+- GPU
+- Developer Tools
+tags_raw:
+- Company
+- Artificial Intelligence
 - Machine Learning
 - LLM
 - Inference
@@ -58,6 +68,10 @@ apis:
   humanURL: https://www.asterlab.ai/inference
   baseURL: https://api.asterlab.ai/v1
   tags:
+  - Inference
+  - LLM
+  - OpenAI-Compatible
+  tags_raw:
   - Inference
   - LLM
   - OpenAI Compatible
