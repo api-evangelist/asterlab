@@ -10,6 +10,17 @@ description: >-
   speed on GPU (644 tok/s). The API works with the official OpenAI Python and JS SDKs, LangChain,
   LiteLLM, Cursor, the Vercel AI SDK, and most agent frameworks by pointing the base URL at
   https://api.asterlab.ai/v1, with zero data retention by default.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
