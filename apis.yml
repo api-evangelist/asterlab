@@ -93,6 +93,8 @@ apis:
   - type: Conventions
     url: conventions/asterlab-conventions.yml
 common:
+- type: Website
+  url: https://www.asterlab.ai/
 - type: DeveloperPortal
   url: https://www.asterlab.ai/inference/console
 - type: Documentation
