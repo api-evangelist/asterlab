@@ -1,0 +1,58 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.asterlab.ai/inference
+sources:
+- https://www.asterlab.ai/inference
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Token-based pricing for three models; volume pricing via contact info@asterlab.ai. OpenAI-compatible
+  API.
+plan_count: 6
+currency: USD
+plans:
+- name: gpt-oss-120b-fast
+  price_text: Input $0.30
+  price: 0.3
+  currency: USD
+  period: per-use
+  unit: per M tokens
+- name: gpt-oss-120b-fast output
+  price_text: Output $1.20
+  price: 1.2
+  currency: USD
+  period: per-use
+  unit: per M tokens
+- name: Kimi K3 input
+  price_text: Input $2.50
+  price: 2.5
+  currency: USD
+  period: per-use
+  unit: per M tokens
+- name: Kimi K3 output
+  price_text: Output $12.50
+  price: 12.5
+  currency: USD
+  period: per-use
+  unit: per M tokens
+- name: GLM 5.2 input
+  price_text: Input $1.00
+  price: 1.0
+  currency: USD
+  period: per-use
+  unit: per M tokens
+- name: GLM 5.2 output
+  price_text: Output $4.00
+  price: 4.0
+  currency: USD
+  period: per-use
+  unit: per M tokens
