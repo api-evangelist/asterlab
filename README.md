@@ -64,6 +64,97 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Asterlab is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Aster (Aster AI Labs, PBC), operating as Asterlab, is a San Francisco based Y Combinator (Spring 2026) public benefit corporation building autonomous research systems that coordinate thousands of AI research agents working in parallel to automate open-ended scientific discovery. The company used that same autonomous-research system to optimize its own inference stack and now offers Aster Inference, an OpenAI-compatible inference API serving open-weight models (gpt-oss-120b, gpt-oss-120b-fast, and Z.ai's GLM 5.2) at what it benchmarks as the fastest gpt-oss-120b output speed on GPU (644 tok/s). The API works with the official OpenAI Python and JS SDKs, LangChain, LiteLLM, Cursor, the Vercel AI SDK, and most agent frameworks by pointing the base URL at https://api.asterlab.ai/v1, with zero data retention by default.
 
-Backed by: y-combinator
+**Areas:** Company · Artificial Intelligence · Machine Learning · LLM · Inference · OpenAI-Compatible · Autonomous Research · GPU · Developer Tools
+
+## Asterlab on APIs.io
+
+Everything profiled for Asterlab is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/asterlab/](https://apis.io/providers/asterlab/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Aster Inference API](https://apis.io/apis/asterlab/aster-inference-api/) — OpenAI-compatible inference API from Aster serving open-weight models (gpt-oss-120b, gpt-oss-120b-fast, GLM 5.2). Authenticate with an Aster API key created…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Asterlab Authentication](https://apis.io/security/asterlab/asterlab-authentication/)
+- [Asterlab Domain Security](https://apis.io/security/asterlab/asterlab-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Asterlab Plans Pricing](https://apis.io/plans/asterlab/asterlab-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.asterlab.ai/)
+- [Documentation](https://www.asterlab.ai/inference)
+- [Getting started](https://www.asterlab.ai/inference)
+- [Pricing](https://www.asterlab.ai/inference)
+- [Sign up](https://www.asterlab.ai/inference/console)
+- [Blog](https://www.asterlab.ai/research/scaling_autonomous_research_to_thousands_of_agents)
+- [Terms of service](https://www.asterlab.ai/terms)
+- [Privacy policy](https://www.asterlab.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 33.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 76.3 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/asterlab/](https://apis.io/providers/asterlab/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Asterlab: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/asterlab/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
